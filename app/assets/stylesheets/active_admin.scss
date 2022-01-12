@@ -1,0 +1,99 @@
+// SASS variable overrides must be declared before loading up Active Admin's styles.
+//
+// To view the variables that Active Admin provides, take a look at
+// `app/assets/stylesheets/active_admin/mixins/_variables.scss` in the
+// Active Admin source.
+//
+// For example, to change the sidebar width:
+// $sidebar-width: 242px;
+
+// Active Admin's got SASS!
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+// Overriding any non-variable SASS must be done after the fact.
+// For example, to change the default status-tag color:
+//
+//   .status_tag { background: #fda342; }
+/*
+@import "active_admin_flat_skin";
+@import "font-awesome";
+
+.header#header .site_title {
+  padding: 10px 0;
+  margin: 0;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #000;
+  font-size: 22px;
+  background-color: #e9cfe3;		
+  }
+
+  html #title_bar .action_items a {
+    border-radius: 0 !important;
+    background: #e9cfe3 !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: none !important;
+    padding: 17px;
+    font-size: 14px;
+}
+
+#active_admin_content #main_content .table_actions .view_link {
+    padding: 2px 7px;
+    color: #000000;
+    background-color: #ffede1;
+}
+#active_admin_content #main_content .table_actions .edit_link {
+    background-color: #f5ecd0;
+    color: #000000;
+}
+#active_admin_content #main_content .table_actions .delete_link {
+    background-color: #ebece6;
+    color: #000000;
+}
+
+
+
+html #header ul.tabs > li:hover > a, html #header ul.tabs > li.current > a {
+    color: white;
+    background: #e9cfe3;
+    border-radius: 0 !important;
+    margin: -10px 0;
+    display: block;
+    margin-top: 0 !important;
+}
+
+.header#header .header-item.tabs#tabs li a {
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff !important;
+    font-size: 14px;
+    transition: all .3s;
+}
+.header#header .header-item.tabs#tabs li.current a {
+    color: #222121 !important;
+}
+
+html #header #utility_nav {
+    background: #8a4545;
+    padding: 0;
+}
+html #header a, html #header a:link {
+    color: #fff;
+}
+html #header #utility_nav {
+    background: #7d5a7b;
+    padding: 0;
+}
+
+
+html #utility_nav li:hover a {
+    margin: 0 !important;
+        margin-top: 0px;
+    background: none !important;
+    color: #000 !important;
+}
+*/
